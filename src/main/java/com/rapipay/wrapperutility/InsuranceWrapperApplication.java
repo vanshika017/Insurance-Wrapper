@@ -1,4 +1,4 @@
-package com.rapipay.Insurance_Wrapper;
+package com.rapipay.wrapperutility;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

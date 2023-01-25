@@ -1,4 +1,4 @@
-package com.rapipay.Insurance_Wrapper;
+package com.rapipay.wrapperutility;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
