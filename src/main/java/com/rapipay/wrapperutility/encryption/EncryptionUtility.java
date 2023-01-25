@@ -19,7 +19,7 @@ public class EncryptionUtility {
         // System.out.println(instance);//
         // Signature signature=Signature.getInstance(algorithm);//
         // KeyPairGenerator keyPairGen=KeyPairGenerator.getInstance();
-         return instance.toString();
+        return instance.toString();
 }
 
 public static String decryptUsingRSA(byte[] encryptedMessageBytes, Key privateKey) throws NoSuchPaddingException, NoSuchAlgorithmException, IllegalBlockSizeException, BadPaddingException, InvalidKeyException {
@@ -28,7 +28,7 @@ public static String decryptUsingRSA(byte[] encryptedMessageBytes, Key privateKe
     decryptCipher.init(Cipher.DECRYPT_MODE, privateKey);
     byte[] decryptedMessageBytes = decryptCipher.doFinal(encryptedMessageBytes);
     String decryptedMessage = new String(decryptedMessageBytes, StandardCharsets.UTF_8);
-        return "asd";
+        return decryptedMessage.toString();
 }
     public static void main(String[] args) throws NoSuchAlgorithmException{
         System.out.println(encryptUsingRSA("SHA256","RSA"));
