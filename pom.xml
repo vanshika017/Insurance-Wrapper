@@ -86,18 +86,6 @@
 						<classifier>app-to-import</classifier>
 					</configuration>
 				</execution>
-
-				<version>3.1.1</version>
-				<executions>
-					<execution>
-						<goals>
-							<goal>jar</goal>
-						</goals>
-						<phase>package</phase>
-						<configuration>            <!--to be imported on other projects -->
-							<classifier>app-to-import</classifier>
-						</configuration>
-					</execution>
 				</executions></plugin>
 
 
